@@ -13,3 +13,8 @@ Next the firebase is initialed by providing the firebase project URL.
 Next, session pin is defined.
 read_sensor_data() function is defined which will be used to read the humidity and temperature values using Adafruit_DHT.read_retry().
 Finally, in the main loop we measure the humidity and temperature of the environment every five seconds using read_sensor_data() function and if the data is valid we send it to the Firebase database.
+BY 
+Kasyap Dharanikota Se20UARI173
+Manideep Gummadi SE20UARI174
+Vikas Verma SE20UARi175
+Balaji Arvind Se20uari031
