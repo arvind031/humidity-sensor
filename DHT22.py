@@ -22,5 +22,5 @@ while True:
         data = {'temperature': temperature, 'humidity': humidity}
         firebase.post('/sensor_data', data)
 
-    # Delay for 10 seconds
-    time.sleep(10)
+    # Delay for 5 seconds
+    time.sleep(5)
