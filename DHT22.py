@@ -3,7 +3,7 @@ from firebase import firebase
 import time
 
 # Initialize Firebase
-firebase = firebase.FirebaseApplication('YOUR_FIREBASE_URL', None)
+firebase = firebase.FirebaseApplication('https://console.firebase.google.com/project/humidity-sensor-4c4d9/database/humidity-sensor-4c4d9-default-rtdb/data/~2F', None)
 
 # Define the sensor pin
 sensor_pin = 4  # Example for DHT22, change it according to your sensor
